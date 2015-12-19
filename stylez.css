@@ -31,7 +31,7 @@ and (orientation : portrait) { .board {width:1020px;height:1020px;} }
 @media screen and (device-aspect-ratio: 375/667) {.board {width:370px;height:370px;}}
 
 /* iphone 6+, 6s+ */
-@media screen and (device-aspect-ratio: 16/9) {.board {width:410px;height:410px;}}
+@media screen and (device-aspect-ratio: 9/16) {.board {width:410px;height:410px;}}
 
 /* iphone 5 */
 @media screen and (device-aspect-ratio: 40/71) {}
