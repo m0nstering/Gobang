@@ -14,15 +14,12 @@
   .board {
     margin: auto;
     margin-top: 10px;
-    width: 400px;
-    height: 400px;
+
   }
 
 /* ipad pro */
 @media only screen
-and (min-device-width : 1024px)
-and (max-device-width : 1366px)
-and (orientation : portrait) { .board {width:1020px;height:1020px;} }
+@media screen and (device-aspect-ratio: 512/683) {.board {width:1020px;height:1020px;}}
 
 /* ipad */
 @media screen and (device-aspect-ratio: 3/4) {.board {width:760px;height:760px;}}
@@ -34,7 +31,7 @@ and (orientation : portrait) { .board {width:1020px;height:1020px;} }
 @media screen and (device-aspect-ratio: 9/16) {.board {width:410px;height:410px;}}
 
 /* iphone 5 */
-@media screen and (device-aspect-ratio: 40/71) {}
+@media screen and (device-aspect-ratio: 40/71) {.board {width:310px;height:310px;}}
 
 /* iphone < 5 */
 @media screen and (device-aspect-ratio: 2/3) {.board {width:310px;height:310px;}}
