@@ -13,13 +13,14 @@
     <preference name="phonegap-version" value="cli-5.2.0" />
     <platform name="ios" >
       <preference name="orientation" value="portrait" />
-    </platform>
+      <preference name="DisallowOverscroll" value="true" />
+      <preference name="UIWebViewBounce" value="false" />
+
     <preference name="fullscreen" value="true" />
     <preference name="target-device" value="universal" />
     <preference name="prerendered-icon" value="true" />
     <preference name="exit-on-suspend" value="true" />
     <preference name="deployment-target" value="6.0" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="UIWebViewBounce" value="false" />
+    </platform>
 
 </widget>
