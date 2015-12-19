@@ -22,30 +22,30 @@
 @media only screen
 and (min-device-width : 1024px)
 and (max-device-width : 1366px)
-and (orientation : portrait) { .board {width:1020px;height:1020px} }
+and (orientation : portrait) { .board {width:1020px;height:1020px;} }
 
 /* ipad */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
-and (orientation : portrait) { .board {width:760px;height:760px} }
+and (orientation : portrait) { .board {width:760px;height:760px;} }
 
 /* iphone 6,6s */
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
-and (orientation : portrait) { .board {width:370px;height:370px} }
+and (orientation : portrait) { .board {width:370px;height:370px;} }
 
 /* iphone 6+, 6s+ */
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
-and (orientation : portrait) { .board {width:410px;height:410px} }
+and (orientation : portrait) { .board {width:410px;height:410px;} }
 
 /* iphone 2->5 */
 @media only screen
 and (min-device-width : 320px)
-and (orientation : portrait) { .board {width:310px;height:310px} }
+and (orientation : portrait) { .board {width:310px;height:310px;} }
 
   .boardRow {
     width: 100%;
