@@ -20,5 +20,6 @@
     <preference name="exit-on-suspend" value="true" />
     <preference name="deployment-target" value="6.0" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="UIWebViewBounce" value="false" />
 
 </widget>
